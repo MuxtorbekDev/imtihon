@@ -839,6 +839,9 @@ text-align: start;
 
 
 @media (max-width: 48rem) {
+  body {
+    overflow-x: hidden;
+  }
   .showcase {
     height: 1000px;
   }
