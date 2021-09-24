@@ -475,20 +475,20 @@ header .logo h2 {
 
 }
 .experts .expert-1 {
-  top: 0;
-  left: 60px;
+  top: -10%;
+  left: 0;
 }
 .experts .expert-2 {
-  top: 120px;
-  left: 60px;
+  top: 40%;
+  left: 0;
 }
 .experts .expert-3 {
-  top: 0;
-  left: 650px;
+  top: -10%;
+  left: 55%;
 }
 .experts .expert-4 {
-  top: 120px;
-  left: 650px;
+  top: 40%;
+  left: 55%;
 }
 .quick-btn {
   width: 100%;
