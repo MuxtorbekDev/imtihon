@@ -259,6 +259,7 @@ header .logo h2 {
   column-gap: 20px;
 }
 
+
 .showcase .btn span {
   padding: 0px;
   font-style: normal;
@@ -864,6 +865,13 @@ text-align: start;
   }
   .showcase .btn {
     column-gap: 10px;
+    padding: 20px 0px;
+  }
+  .showcase .btn button {
+    width: 40%;
+  }
+  .showcase .btn span {
+    width: 45%;
   }
   .showcase .btn span i {
     padding: 0px 5px;
