@@ -247,9 +247,17 @@ header .logo h2 {
   font-size: 18px;
   line-height: 28px;
 }
+.showcase .btn {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 20px;
+}
 
 .showcase .btn span {
-  padding: 0px 15px;
+  padding: 0px;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -846,11 +854,7 @@ text-align: start;
     height: 1000px;
   }
   .showcase .btn {
-    padding: 20px 0px;
-  }
-  .showcase .btn span {
-    padding: 0px;
-  
+    column-gap: 10px;
   }
   .showcase .btn span i {
     padding: 0px 5px;
