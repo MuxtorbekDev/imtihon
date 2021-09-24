@@ -427,7 +427,7 @@ header .logo h2 {
 
 #quick {
   width: 100%;
-  height: 700px;
+  height: auto;
   background: linear-gradient(to top, #fff, #Ededed);
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -439,6 +439,8 @@ header .logo h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 650px;
+  
 }
 .q-text {
   text-align: center;
@@ -867,12 +869,6 @@ text-align: start;
     column-gap: 10px;
     padding: 20px 0px;
   }
-  .showcase .btn button {
-    width: 40%;
-  }
-  .showcase .btn span {
-    width: 45%;
-  }
   .showcase .btn span i {
     padding: 0px 5px;
   }
@@ -917,32 +913,33 @@ text-align: start;
     text-align: center;
   }
   #quick {
-    height: 1000px;
+    height: auto;
     text-align: center;
   }
   .quick {
-    padding-top: 120px;
-    padding-right: 20px;
+    margin-top: 120px;
+    height: 1000px;
+    padding-right: 30px;
     padding-left: 0px;
   }
   .experts .expert {
     width:300px;
   }
   .experts .expert-1 {
-    top: -170px;
-    left: 30px;
+    top: -60%;
+    left: 20%;
   }
   .experts .expert-2 {
-    top: -50px;
-    left: 30px;
+    top: -20%;
+    left: 20%;
   }
   .experts .expert-3 {
-    top: 70px;
-    left: 30px;
+    top: 20%;
+    left: 20%;
   }
   .experts .expert-4 {
-    top: 190px;
-    left: 30px;
+    top: 60%;
+    left: 20%;
   }
   .experts {
     height: 600px;
