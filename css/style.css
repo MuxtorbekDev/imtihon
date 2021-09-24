@@ -95,15 +95,16 @@ button {
   font-size: 16px;
   line-height: 24px;
   color: var(--bg-color);
-  transition: .5s;
+  transition: all 600ms ease; 
   cursor: pointer;
+  border: 1px solid var(--bt-color);
 }
 
 button:hover {
   background: var(--bg-color);
   color: var(--text-color);
   border: 1px solid var(--text-color);
-  
+ 
 }
 
 
@@ -161,10 +162,12 @@ header .logo h2 {
 .navbar ul li:nth-child(6){
   background: var(--bt-color);
   border-radius: 4px;
+  border: 1px solid var(--bt-color);
 }
 .navbar ul li:nth-child(5):hover {
   background: var(--bt-color);
   border: none;
+  border: 1px solid var(--bt-color);
 }
 .navbar ul li:nth-child(5):hover a {
   color: var(--bg-color)
@@ -837,6 +840,12 @@ text-align: start;
   color: #ffffff;
   margin-top: 30px;
   border: none;
+  border: 1px solid var(--bt-color);
+}
+.footer-sign input[type="submit"]:hover {
+  background-color: #ffffff;
+  border: 1px solid #02897A;
+  color: #02897A;
 }
 .footer-title {
   padding: 20px 0px;
