@@ -277,8 +277,9 @@ header .logo h2 {
 /* product style */
 
 .product {
-  height: 600px;
+  height: auto;
   text-align: center;
+  margin-top: 10%;
   padding-top: 120px 0px 60px 0px;
 }
 
