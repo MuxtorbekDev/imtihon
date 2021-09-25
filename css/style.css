@@ -476,19 +476,19 @@ header .logo h2 {
 }
 .experts .expert-1 {
   top: -10%;
-  left: 0;
+  left: 5%;
 }
 .experts .expert-2 {
   top: 40%;
-  left: 0;
+  left: 5%;
 }
 .experts .expert-3 {
   top: -10%;
-  left: 55%;
+  left: 65%;
 }
 .experts .expert-4 {
   top: 40%;
-  left: 55%;
+  left: 65%;
 }
 .quick-btn {
   width: 100%;
