@@ -667,7 +667,7 @@ text-align: start;
   text-align: center;
 }
 .clients-text {
-  padding: 0 300px 20px 300px;
+  padding: 0 25% 20px 25%;
 }
 .clients-items {
   width: 100%;
@@ -676,6 +676,7 @@ text-align: start;
   flex-wrap: row nowrap;
   justify-content: space-between;
   align-items: center;
+  gap: 15px;
 }
 .clients-items .clients-item {
   width: 327px;
